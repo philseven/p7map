@@ -17,8 +17,8 @@ function LocationDataSource() {
  * @private
  */
 LocationDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
-  new storeLocator.Feature('Wheelchair-YES', 'Wheelchair access'),
-  new storeLocator.Feature('Audio-YES', 'Audio')
+  //new storeLocator.Feature('Wheelchair-YES', 'Wheelchair access'),
+  //new storeLocator.Feature('Audio-YES', 'Audio')
 );
 
 /**
@@ -36,14 +36,11 @@ LocationDataSource.prototype.getFeatures = function() {
 LocationDataSource.prototype.parse_ = function(csv) {
   var stores = [];
   /*var rows = csv.split('\n');*/
-  var data = Papa.parse(csv);
-  var headings = data.data[0];
-  /*var headings = this.parseRow_(rows[0]);*/
+  var config = { "header": true, "skipEmptyLines": true };
+  var data = Papa.parse(csv, config);
 
-  for (var i = 1, row; row = data.data[i]; i++) {
-
-    /* row = this.toObject_(headings, this.parseRow_(row)); */
-    row = this.toObject_(headings, row);
+  for (var i = 0, row; i < data.data.length; i++) {
+    row = data.data[i];
 /*
     var features = new storeLocator.FeatureSet;
     features.add(this.FEATURES_.getById('Wheelchair-' + row.Wheelchair));
@@ -51,17 +48,17 @@ LocationDataSource.prototype.parse_ = function(csv) {
 */
     var position = new google.maps.LatLng(row.latitude, row.longitude);
 
-    var shop = this.join_([row.store_key, row.storename], ', ');
+    var shop = this.join_([row.store_key, row.storename], ': ');
     var locality = this.join_([row.province_name, row.region_name], ', ');
 
-    var store = new storeLocator.Store(row.store_key, position, "", {
+    var store = new storeLocator.Store(row.store_key, position, null, {
       title: row.storename,
-      address: this.join_([shop, row.address, row.city_muni_name], '<br>'),
+      address: this.join_([shop, row.address, row.city_muni_name, "Tel: " + row.telno], '<br>'),
       hours: "24h"
     });
     stores.push(store);
   }
-  console.log(stores);
+  // console.log(stores);
   return stores;
 };
 
@@ -78,42 +75,4 @@ LocationDataSource.prototype.join_ = function(arr, sep) {
     arr[i] && parts.push(arr[i]);
   }
   return parts.join(sep);
-};
-
-/**
- * Very rudimentary CSV parsing - we know how this particular CSV is formatted.
- * IMPORTANT: Don't use this for general CSV parsing!
- * @private
- * @param {string} row
- * @return {Array.<string>}
- */
-LocationDataSource.prototype.parseRow_ = function(row) {
-  // Strip leading quote.
-  if (row.charAt(0) == '"') {
-    row = row.substring(1);
-  }
-  // Strip trailing quote. There seems to be a character between the last quote
-  // and the line ending, hence 2 instead of 1.
-  if (row.charAt(row.length - 2) == '"') {
-    row = row.substring(0, row.length - 2);
-  }
-
-  row = row.split("\t");
-
-  return row;
-};
-
-/**
- * Creates an object mapping headings to row elements.
- * @private
- * @param {Array.<string>} headings
- * @param {Array.<string>} row
- * @return {Object}
- */
-LocationDataSource.prototype.toObject_ = function(headings, row) {
-  var result = {};
-  for (var i = 0, ii = row.length; i < ii; i++) {
-    result[headings[i]] = row[i];
-  }
-  return result;
 };

@@ -1,7 +1,7 @@
 google.maps.event.addDomListener(window, 'load', function() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), {
-    center: { lat: 12.8797184, lng: 121.737109 },
-    zoom: 9,
+    center: { lat: 14.5941032, lng: 121.0561089 },
+    zoom: 14,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 

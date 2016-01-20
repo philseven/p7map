@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>7-Eleven Philippines Store Locator</title>
+  <script
+  src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js">
+  </script>
+  <script src="bower_components/papaparse/papaparse.min.js"></script>
+  <script src="js/store-locator.min.js"></script>
+  <script src="js/p7-static-ds.js"></script>
+  <script src="js/panel-p7.js"></script>
+  <link rel="stylesheet" href="css/p7storelocator.css">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.deep_orange-green.min.css">
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Find a 7-Eleven</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Find a 7-Eleven</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="mdl-grid">
+        <div id="panel" class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone"></div>
+        <div id="map-canvas" class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+        </div>
+      </div>
+      <footer class="mdl-mini-footer">
+          <p class="attribution">Store location data available in <a href="data/p7_stores.csv">csv format</a>.</p>
+        </footer>
+    </main>
+  </div>
+</body>
+</html>

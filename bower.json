@@ -1,0 +1,19 @@
+{
+  "name": "p7map",
+  "version": "0.9.0",
+  "homepage": "https://github.com/jgngo/js-store-locator",
+  "authors": [
+    "Jason Jan Ngo <jgngo@7-eleven.com.ph>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "papaparse": "~4.1.2"
+  }
+}

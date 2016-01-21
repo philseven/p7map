@@ -14,8 +14,8 @@
   <script src="js/p7-static-ds.js"></script>
   <script src="js/panel-p7.js"></script>
   <link rel="stylesheet" href="css/p7storelocator.css">
-  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.deep_orange-green.min.css">
-  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.deep_orange-green.min.css">
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="manifest" href="manifest.json">
 </head>
@@ -51,7 +51,12 @@
     </div>
     <main class="mdl-layout__content">
       <div class="mdl-grid">
-        <div id="panel" class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone"></div>
+        <div id="panel" class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--3-col-phone"></div>
+        <div class="mdl-cell mdl-cell--hide-desktop mdl-cell--hide-tablet mdl-cell--1-col-phone shortcut">
+          <a href="#map-canvas">
+          <i class="material-icons md-48 md-dark md-inactive">map</i><br/>
+          <i class="material-icons md-48 md-dark md-inactive">arrow_downward</i></div>
+          </a>
         <div id="map-canvas" class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
         </div>
       </div>

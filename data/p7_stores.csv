@@ -544,7 +544,7 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 705	CWC	Cadlan Municipality of Pili, Camarines Sur		REGION V (Bicol Region)	CAMARINES SUR	PILI (Capital)	13.5967	123.257
 706	Aria	Real cor. Aria Sts., Las Pinas City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF LAS PI?AS	14.4479	120.985
 707	Concepcion Uno	Bayan Bayanan Avenue Bgy Concepcion Marikina City	5849615	NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MARIKINA	14.6505	121.106
-708	Northwalk Clark	1601 E. Rodriguez St., Cubao, Quezon City	0942	NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	15.1854	120.539
+708	Northwalk Clark	Friendship Gate, Clark Freeport Zone, Angeles City	0942	NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	15.1854	120.539
 709	Caltex  Balibago	Caltex Balibago		REGION IV-A (CALABARZON)	LAGUNA	CITY OF SANTA ROSA	14.2889	121.095
 710	Tejero	A. Soriano Highway, Tejero, Gen. Trias, Cavite		REGION IV-A (CALABARZON)	CAVITE	GENERAL TRIAS	14.3959	120.864
 711	Tanauan 2	Tanauan 2		REGION IV-A (CALABARZON)	BATANGAS	CITY OF TANAUAN	14.0738	121.151
@@ -630,7 +630,7 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 651	Total Balanga	National Road Calero St Brgy Ibayo Batangas Bataan	2370030	REGION III (Central Luzon)	BATAAN	CITY OF BALANGA (Capital)	14.6863	120.539
 720	El Jardin de Presidente	Sgt Esguerra St Quezon City	0998	NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6379	121.039
 807	Urdaneta 3	Mcarthur Highway Urdaneta City Pangasinan	0922	REGION I (Ilocos Region)	PANGASINAN	CITY OF URDANETA	15.9723	120.571
-823	Binalonan Crossing	McArthur Highway Binalonan Pangasinan						
+823	Binalonan Crossing	McArthur Highway Binalonan Pangasinan					16.0468	120.586
 838	Mariveles	Lakandula St P Burgos Poblacion Mariveles Bataan	9357538	REGION III (Central Luzon)	BATAAN	MARIVELES	14.4342	120.486
 842	Naguillan Poblacion	Naguillan Road cor Rimando St Naguillan La Union	0920	REGION I (Ilocos Region)	LA UNION	NAGUILIAN	16.53	120.393
 786	BF Homes 3	Bf Homes Aguirre Ave cor Elizalde Paranaque City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF PARA?AQUE	14.45	121.018
@@ -1017,6 +1017,7 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1275	Legazpi 5	Imperial Street Brgy Bitano Legazpi City		REGION V (Bicol Region)	ALBAY	LEGAZPI CITY (Capital)	13.1461	123.744
 1299	Caltex Lipa Balintawak	Brgy Balintawak Lipa City Batangas		REGION IV-A (CALABARZON)	BATANGAS	LIPA CITY	13.9478	121.157
 1312	Dolores	Brgy Dolores San Fernando Pampanga		REGION III (Central Luzon)	PAMPANGA	CITY OF SAN FERNANDO (Capital)	15.0441	120.674
+1146	Maribago	pajac Maribago road Maribago Lapu lapu city					10.2839	123.995
 1205	Liloan Poblacion	Poblacion Liloan Cebu City			CEBU	LILO-AN	10.245	123.796
 1215	Bacolod Doctors	GF McMetroplex Aquino Drive Bacolod City		REGION VII (Central Visayas)			10.6785	122.96
 1217	i1 Building	i1 Building GF Asiatown IT Park Apas Cebu City		REGION VII (Central Visayas)	CEBU	CEBU CITY	10.3287	123.907
@@ -1219,7 +1220,7 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1518	St.Joseph San Pedro	Brgy Langgam san Pedro City Laguna		REGION IV-A (CALABARZON)	LAGUNA	SAN PEDRO	14.3261	121.017
 1532	PUP-Teresa	Aguida Building #265 Teresa st,sta Mesa Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	SAMPALOC	14.6001	121.013
 1558	Abucay,Bataan	Abucay Bataan	0923	REGION III (Central Luzon)	BATAAN	ABUCAY	14.722	120.536
-1466	Lorex Ave.	Ta?ada Subd. Valenzuela	0947		NCR, THIRD DISTRICT	CITY OF VALENZUELA	14.6845	120.987
+1466	Lorex Ave.	Ta?ada Subd. Valenzuela	0947	NCR - National Capital Region	NCR, THIRD DISTRICT	CITY OF VALENZUELA	14.6845	120.987
 1486	Beata Pandacan	Plaza Building Baeta Pandacan Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	PANDACAN	14.591	121.005
 1501	Juan Luna	Juan Luna St,Binondo Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	BINONDO	14.6045	120.971
 1513	M.V Delos Santos	M.V Delos Santos Sampaloc, Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	SAMPALOC	14.6029	120.991
@@ -1341,7 +1342,7 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1597	Jordan-Moonwalk	Brgy Moonwalk, Para?aque City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF PARA?AQUE	14.4923	121.008
 1620	Metro Oil Roosevelt	Sto. Ni?o St,. Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6507	121.018
 1646	CPI Taft	Brgy.97,2724 Taft Ave.Extn Pasay City		NCR - National Capital Region	NCR, FOURTH DISTRICT	PASAY CITY	14.5407	121
-1657	Fatima Annex	Brgy,. Marulas Valenzuela City			NCR, THIRD DISTRICT	CITY OF VALENZUELA	14.6815	120.98
+1657	Fatima Annex	Brgy,. Marulas Valenzuela City		NCR - National Capital Region	NCR, THIRD DISTRICT	CITY OF VALENZUELA	14.6815	120.98
 1731	San Luis Pob,. Batangas	Poblacion, San Luis, Batangas			BATANGAS	SAN LUIS	13.8551	120.917
 1571	Alijis	Circumferential Road,Bacolod City					10.6455	122.939
 1599	Ongpin 2	640 Ongpin st,. China Town Binondo Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	BINONDO	14.6001	120.975
@@ -1415,14 +1416,14 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1722	Plaza Miranda	R.Hidalgo St,. Quiapo Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	QUIAPO	14.5981	120.983
 1732	Guiguinto	Guiguinto Bulacan		REGION III (Central Luzon)	BULACAN	GUIGUINTO	14.8283	120.878
 1741	Porac,Pampanga	Cangatba Porac Pampanga		REGION III (Central Luzon)	PAMPANGA	PORAC	15.0718	120.543
-1777	Camachiles	Camachiles,Mabalacat Pampanga			PAMPANGA	MABALACAT	15.1916	120.584
+1777	Camachiles	Camachiles,Mabalacat Pampanga					15.1916	120.584
 1512	Brentville	Brgy.Mamplasan,Bi?an Laguna		REGION IV-A (CALABARZON)	LAGUNA	BI?AN	14.3058	121.082
 1567	Limay, Bataan	Brgy.Refomista,National Road, Limay Bataan		REGION III (Central Luzon)	BATAAN	LIMAY	14.5615	120.595
 1743	AUF Hospital 2	Angeles City,Pampanga		REGION III (Central Luzon)	PAMPANGA	ANGELES CITY	15.1453	120.595
 1754	Limketkai	Limketkai Center,Cagayan De Oro					8.48322	124.657
 1755	Georgetown Cybermall	Kauswagan Cagayan De Oro City					8.48718	124.639
 1803	Bugallon,Pangasinan	Brgy.Poblacion,Bugallo,Pangasinan		REGION I (Ilocos Region)	PANGASINAN	BALUNGAO	15.8941	120.631
-1563	Ligao	Blumentritt St., Ligao City Albay						
+1563	Ligao	Blumentritt St., Ligao City Albay					13.2405	123.536
 1668	Silver City 2	Frontera Verde,Ortigas Center Pasig City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF PASIG	14.5871	121.077
 1684	Vigan 3	Vigan City Ilocos Sur		REGION I (Ilocos Region)	ILOCOS SUR	CITY OF VIGAN (Capital)	17.5807	120.385
 1703	Scienceville	Betterliving Subd.,Para?aque City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF PARA?AQUE	14.484	121.027
@@ -1458,18 +1459,18 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1814	Divine World College Laoag	Laoag City Ilocos Norte		REGION I (Ilocos Region)	ILOCOS NORTE	LAOAG CITY (Capital)	18.2043	120.599
 1649	Red Planet Hotel	Brgy Pio del Pilar,Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5597	121.013
 1762	Sabang Lipa	Sabang Lipa Batangas		REGION IV-A (CALABARZON)	BATANGAS	LIPA CITY	13.9441	121.167
-1765	Arpilleda	Carmona Makati City					14.5756	121.017
+1765	Arpilleda	Carmona Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5756	121.017
 1770	JP Rizal 3	Brgy Valenzuela Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5703	121.022
 1828	Green Windows	Mt. Apo St,. Davao City					7.07189	125.605
 1685	Ususan	Ususan Taguig City		NCR - National Capital Region	NCR, FOURTH DISTRICT	TAGUIG CITY	14.5352	121.068
 1834	Sandawa	Guardsman Building Sandawa Road Davao City					14.5942	121.028
 1835	UIC Bonifacio	Dover Magallanes Bonifacio St,. Davao City					7.06726	125.612
 1415	Buendia 6	Senator Gil Puyat,Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5599	121.012
-1600	Rosario,La Union 2	Poblacion Rosario La Union			LA UNION	ROSARIO	16.2303	120.487
+1600	Rosario,La Union 2	Poblacion Rosario La Union					16.2303	120.487
 1760	Phoenix Anabu	Aguinaldo Hiway Imus Cavite		REGION IV-A (CALABARZON)	CAVITE	IMUS	14.3707	120.939
 1802	FLB Cebu	Cebu Business Park Cebu City		REGION VII (Central Visayas)	CEBU	CEBU CITY	10.3183	123.903
 1840	Star City	Pasay City		NCR - National Capital Region	NCR, FOURTH DISTRICT	PASAY CITY	14.5558	120.986
-1857	Calaca Highway	Calaca Batangas City		REGION IV-A (CALABARZON)	BATANGAS	CALACA	13.9284	120.811
+1857	Calaca Highway	Calaca Batangas City		REGION IV-A (CALABARZON)	BATANGAS	BATANGAS CITY (Capital)	13.9284	120.811
 1863	City Mall Consolacion	Consolacion Cebu		REGION VII (Central Visayas)	CEBU	CONSOLACION	10.375	123.96
 1819	Bilibid Viejo	Quiapo Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	QUIAPO	14.6202	121.101
 1831	CPI Angono	San Isidro Angono Rizal		REGION IV-A (CALABARZON)	RIZAL	ANGONO	14.5364	121.15
@@ -1483,17 +1484,18 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1897	Ateneo Jacinto	Davao City					7.07238	125.614
 1365	Gold Land Tower	Greenhills,San Juan		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF SAN JUAN	14.6055	121.049
 1584	Villa Arevalo Iloilo	Villa Arevalo Iloilo City					10.6869	122.516
-1686	Bolbok,Batangas City							
+1686	Bolbok,Batangas City						13.7755	121.045
 1701	Tigbauan	GF B&C Building Iznart St,Iloilo City					10.6751	122.376
 1713	Banawa Paseo	Banawa Cebu City					10.3109	123.893
-1779	Cielito Homes Caloocan	Camarin Caloocan City					14.747	121.053
+1779	Cielito Homes Caloocan	Camarin Caloocan City		NCR - National Capital Region	NCR, THIRD DISTRICT	CALOOCAN CITY	14.747	121.053
 1798	Dumlog Talisay	Burgos St,Bumlog Talisay Cebu					10.2437	123.839
 1801	Scout Tuason	Brgy Laging Handa,Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6297	121.032
 1912	Nova Tierra	Davao City					7.11002	125.649
 1913	Ecoland	Matina Davao City					7.04969	125.586
 1589	Babag Uno	Lapu-Lapu City Cebu					10.2871	123.944
 1736	SM Dasmari?as	Aguinaldo Highway Dasmari?as Cavite		REGION IV-A (CALABARZON)	CAVITE	DASMARI?AS	14.3026	120.956
-1766	Hermosa Plaza	Hermosa Bataan						
+1744	Dela Paz Antipolo	Bagong Nayon Antipolo City					14.5891	121.17
+1766	Hermosa Plaza	Hermosa Bataan					14.83	120.509
 1778	Bayan Luma	Imus Cavite					14.4168	120.935
 1800	CPI Kalentong	Romualdez St,Mandaluyong City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MANDALUYONG	7.05839	125.601
 1838	CPI Tugatog	Tugatog Malabon City		NCR - National Capital Region	NCR, THIRD DISTRICT	CITY OF MALABON	14.6677	120.966
@@ -1506,11 +1508,13 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1758	Baloy Olongapo	Barrio Baretto,Olongapo City		REGION III (Central Luzon)	ZAMBALES	OLONGAPO CITY	14.8517	120.255
 1799	Numancia	SBS Bldg. Numancia,Binondo Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	BINONDO	14.5975	120.972
 1821	Regtime Hotel Dagupan	Dagupan City,Pangasinan		REGION I (Ilocos Region)	PANGASINAN	DAGUPAN CITY	15.5048	120.312
+1783	Pasig Church 2	San Nicolas Pasig City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF PASIG	14.5612	121.078
 1931	Tulaoc	Brgy Tulaoc San Simon Pampanga		REGION III (Central Luzon)	PAMPANGA	SAN SIMON	14.9802	120.753
 1862	Granvia Residences	Pueblo de Oro,Cagayan de Oro City					8.45438	124.623
 1872	Potrero Malabon	Brgy Potrero Malabon City		NCR - National Capital Region	NCR, THIRD DISTRICT	CITY OF MALABON	14.6676	120.982
 1873	Dulong Bayan	San Mateo Rizal		REGION IV-A (CALABARZON)	RIZAL	SAN MATEO	14.7008	121.125
 1893	Buhangin Milan	Buhangin,Davao City					7.10986	125.613
+1894	Victoria Plaza	Bajada,Davao City					7.08704	125.612
 1896	Ponciano	Ponciano Reyes,St, Davao City					7.07144	125.61
 1792	Equatorial Bldg. CM Recto	Coromina St, Quiapo Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	QUIAPO	14.6028	120.985
 1820	SFLU Regional Hospital	San Fernando City,La Union					16.5912	120.32
@@ -1519,9 +1523,11 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1959	Holy Cross College	Sta.Ana Ave, Davao City					7.07653	125.616
 1960	Sumo Asia Hotel	Lanang,Davao City					7.10221	125.633
 1961	Matina Crossing	Matina McArthur,Davao City					7.05858	125.569
+1962	San Pedro Davao	Davao City					7.06752	125.605
 1972	Banawe 3	La Loma,Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6327	121.002
-1973	Wesleyan University,N.E	Nueva Ecija						
+1973	Wesleyan University,N.E	Nueva Ecija					15.485	120.974
 1729	Tagbac Jaro	Brgy.Balantang,Jaro Iloilo City					10.7619	122.578
+1753	CPI Calauag	Brgy.Sta. Maria Calauag, Quezon					13.9536	122.294
 1780	Wilcon IT Hub	Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5429	121.018
 1884	CPI Gusa	National Highway,Cagayan de Oro					8.47625	124.679
 1885	Tabing Ilog, Marilao	Marilao Bulacan		REGION III (Central Luzon)	BULACAN	MARILAO	14.7615	120.948
@@ -1529,48 +1535,110 @@ store_key	storename	address	telno	region_name	province_name	city_muni_name	latit
 1922	Elvinda	San Pedro City, Laguna		REGION IV-A (CALABARZON)	LAGUNA	SAN PEDRO	14.3579	121.06
 1923	Cabuyao City Hall	Brgy. Sala,Cabuyao City,Laguna		REGION IV-A (CALABARZON)	LAGUNA	CABUYAO	14.2712	121.123
 1949	Um Matina	Brgy. Matina,Davao City					7.06294	125.599
-1759	Palauig,Zambales	Brgy.West Poblacion,Palauig Zambales						
-1909	Baesa 2	Baesa, Quezon City					14.6713	121.011
-1936	Oceanaire	Central Business Park 1 Pasay City					14.5326	120.986
+1759	Palauig,Zambales	Brgy.West Poblacion,Palauig Zambales					15.2601	119.543
+1850	Bonifacio Road,Baguio City	Honeymoon Subdivision,Baguio City		CAR - Cordillera Administrative Region	BENGUET	BAGUIO CITY	16.2409	120.362
+1909	Baesa 2	Baesa, Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6713	121.011
+1936	Oceanaire	Central Business Park 1 Pasay City		NCR - National Capital Region	NCR, FOURTH DISTRICT	PASAY CITY	14.5326	120.986
 1788	Sultan-EDSA	EDSAcor Sultan St, Brgy Highway Hills Mandaluyong		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MANDALUYONG	14.581	121.053
+1836	A. Francisco	Sta.Ana Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	SANTA ANA	14.577	121.007
 1898	Bocaue Exit	Brgy.Turo,Bocaue,Bulacan					14.8076	120.941
-1937	Villa Verde	Sta.Monica,Quezon City					14.7222	121.042
+1937	Villa Verde	Sta.Monica,Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.7222	121.042
 1992	GMall	J.P Laurel Ave,. Davao City					7.07849	125.613
 1716	Total Gas Roxas	Roxas City Capiz					11.584	122.755
 1861	Nepa Q Mart	Ermin Garcia St,Cubao Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6272	121.048
 1988	Petron Xavier Estate	Cagayan de Oro City					8.443	124.621
-1422	Grand Riviera Suites	Padre Faura St,Ermita Manila						
+1785	Centuria Medical	Kalayaan Ave,Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5669	121.029
+1969	Carnival Park	Talon Dos,Las Pi?as City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF LAS PI?AS	14.4332	120.985
+1422	Grand Riviera Suites	Padre Faura St,Ermita Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	ERMITA	14.5763	120.98
 1841	Maria Orosa 3	1191 Maria Orosa St, Ermita Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	ERMITA	14.5791	120.983
-1859	Kaginhawaan	Mangahan,Pasig City					14.6036	121.103
-1869	CPI Lagro	Novaliches Quezon City					14.7352	121.064
-1870	Holy Angel,San Fernando	San Fernando City,Pampanga						
+1859	Kaginhawaan	Mangahan,Pasig City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF PASIG	14.6036	121.103
+1869	CPI Lagro	Novaliches Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.7352	121.064
+1870	Holy Angel,San Fernando	San Fernando City,Pampanga					15.1135	120.608
 1883	CDO Capitol	Cagayan de Oro City					8.48631	124.648
-1945	One Corporate Plaza	Makati City					14.5514	121.017
+1945	One Corporate Plaza	Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5514	121.017
 1333	Legazpi 4	National Road,Brgy Rawis Legazpi City					13.1699	123.752
 1644	Badian	Poblacion,Badian cebu					9.86882	123.396
 1804	Peoples Park	177 J. Camus Ilustre st, Davao City					7.07101	125.608
 1843	Plaza Nouvelle	Brgy Zapatera Cebu City					10.3101	123.902
+1868	Provincial Dumaguete	Barrio of Bantayan,Dumaguete					9.32228	123.299
 1871	Simala-Cebu	Simala,Sibonga Cebu					10.0177	123.62
+1899	Kabatuhan Road-Deparo	Sto.Tomas Ville De Paro,Caloocan City		NCR - National Capital Region	NCR, THIRD DISTRICT	CALOOCAN CITY	14.7405	121.019
+1968	Aguirre 2	Para?aque City		NCR - National Capital Region				
+1976	CPI Gatuslao	Burgos Ave,. Bacolod City					10.6725	122.949
 1891	COC	Max Suniel St., Brgy. Carmen, Cagayan de Oro					8.48161	124.636
-1952	Velez	Don Apolinar Velez St., Cagayan de Oro						
-1543	JT Centrale-Fugoso	Felix Huertas St,Sta. Cruz					14.6074	120.984
+1924	IRRI LB	Brgy. Maahas, Los Ba?os, Cavite					14.1767	121.253
+1951	Hayes St.	Hayes- Mortola Sts., Cagayan de Oro					14.577	121.007
+1952	Velez	Don Apolinar Velez St., Cagayan de Oro					8.47994	124.645
+2006	Maria Reyna	Unit 4 & 5 Real Marc Building, Cagayan de Oro					8.47541	124.654
+1543	JT Centrale-Fugoso	Felix Huertas St,Sta. Cruz		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	SANTA CRUZ	14.6074	120.984
 1784	Calbayog	Mandaluyong City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MANDALUYONG	14.5816	121.049
-1979	Marcos Highway 2,Baguio City	Marcos Highway, Baguio City					16.3927	120.579
+1904	AMC Caldera	Gov.Fullon St, San Jose Antique					10.737	121.952
+1905	Fotune Town-Merzci	Bacolod City Negros Occidental					10.6694	122.987
+1966	Tagaytay Rotonda	Tagaytay City,Cavite					14.1148	120.961
+1982	Gen. Trias 3	Brgy Javalera,Gen Trias Cavite					14.2597	120.915
+1993	Green Banana Hotel	Davao City					7.0839	125.611
+1698	Seaoil Taytay	Munoz Taytay Rizal					14.5495	121.14
+1975	La Salle 4	Green Court Parking Malate,Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	MALATE	14.5667	120.992
+1979	Marcos Highway 2,Baguio City	Marcos Highway, Baguio City		CAR - Cordillera Administrative Region	BENGUET	BAGUIO CITY	16.3927	120.579
 1999	Venus Tandang Sora	Tandang Sora,Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.3766	121.035
-2009	Lipa T.M Kalaw	T.M Kalaw St, Lipa City, Batangas						
-1665	Sta. Ana Tulay	Sta. Ana,Manila					14.5874	121.021
-1925	D. Jose 2	Sta. Cruz Manila						
-1934	Mirabela Homes	Bagumbong Caloocan City						
-1970	Rancho 2	Rancho Estate Phase 3,Marikina City						
-1981	El Paseo-UP Diliman	Commonwealth Ave,Philcoa Quezon City						
-1935	CPI Pandacan	Pandacan Manila					14.5909	121.001
-1991	Dela Salle Araneta	#82 Araneta Ave,Potrero, Malabon						
-2003	Orion	Bonifacio Global City Taguig					14.5585	121.056
-2004	Green Heights	San Isidro Para?aque City						
+2002	Metro Lifestyle	Davao City					7.07893	125.608
+2009	Lipa T.M Kalaw	T.M Kalaw St, Lipa City, Batangas					13.9457	121.162
+2010	Toril Sto. Rosario	Juan Dela Cruz St,Toril Davao City					7.01211	125.499
+1665	Sta. Ana Tulay	Sta. Ana,Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	SANTA ANA	14.5874	121.021
+1818	Tunasan 2	Muntinlupa City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MUNTINLUPA	14.3874	121.046
+1877	Sigma Capiz	(Iloilo Capiz Road) Sigma,Capiz					10.896	122.704
+1879	Acsie	Industrial State,Para?aque City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF PARA?AQUE	14.3432	121.045
+1925	D. Jose 2	Sta. Cruz Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	SANTA CRUZ	14.6051	120.98
+1934	Mirabela Homes	Bagumbong Caloocan City		NCR - National Capital Region	NCR, THIRD DISTRICT	CALOOCAN CITY	14.7789	121.046
+1946	Airport Road 3	Baclaran Para?aque City		NCR - National Capital Region				
+1970	Rancho 2	Rancho Estate Phase 3,Marikina City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MARIKINA	14.6424	121.122
+1981	El Paseo-UP Diliman	Commonwealth Ave,Philcoa Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6537	121.054
+1692	Iloilo Business Park	Mandurriao,Iloilo					10.7157	122.546
+1747	Siliman Highway	National Highway,Dumaguete City					9.31179	123.305
+1808	The District North Point	Talisay City Negros Occidental					10.7217	122.962
+1851	Dumaguete Boulevard	Rizal Blvd,. Dumaguete City					9.30823	123.309
+1928	Banga, Meycauyan	Meycauyan City, Bulacan					14.7279	120.961
+1935	CPI Pandacan	Pandacan Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	PANDACAN	14.5909	121.001
+1974	Ta?ong	Bonifacio Ave,Ta?ong Marikina City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MARIKINA	14.634	121.086
+1991	Dela Salle Araneta	#82 Araneta Ave,Potrero, Malabon		NCR - National Capital Region	NCR, THIRD DISTRICT	CITY OF MALABON	14.6703	120.999
+2003	Orion	Bonifacio Global City Taguig		NCR - National Capital Region	NCR, FOURTH DISTRICT	TAGUIG CITY	14.5585	121.056
+2004	Green Heights	San Isidro Para?aque City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF PARA?AQUE	14.4678	121.014
+2017	Cabaguio Avenue	Cabaguio Bldg., Villamor St., Cabaguio, Davao City					7.08707	125.624
 2020	Pilar Sorsogon	Binanuahan Pilar Sorsogon					12.9234	123.675
-2027	Sta.Barbara,Pangasinan	Poblacion,Sta.Barbara,Pangasinan						
-2045	Regional Hospital	Sambat Ibaba,. Batangas City						
-1910	Tanauan 5	Tanauan City Batangas						
-1947	Micara Tanza	Tanza,Cavite						
-2041	San Aquintin,Pangasinan	Poblacion San Quintin,Pangasinan						
-2016	Shakey's Buting Pasig	M. Concepcion Brgy,.Buting,Pasig						
+2046	Matina Gallera	Lot 17 Blk 11 McArthur Highway, Matina, Davao City					7.01213	125.499
+1587	Bulacao	Cebu South,Bulacao Cebu					10.2732	123.849
+1786	Pilar Hi-way	Brgy. Aliuli Pilar,Bataan					14.6466	120.539
+1990	Paz-Araneta	Kaliraya St, Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6245	121.015
+2001	BF Resort 3	BF Resort Drive Ave,. Las Pinas City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF LAS PI?AS	14.4414	120.991
+2025	Naic Grand Terminal	Naic Cavite					14.3212	120.769
+2027	Sta.Barbara,Pangasinan	Poblacion,Sta.Barbara,Pangasinan					15.9979	120.405
+2029	El Grande	Phase 3, Para?aque City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF PARA?AQUE	14.4566	121.008
+1767	White Plains	White Plains,Subd.,Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6071	121.07
+1848	Knightsbridge Residences	Century City Makati City		NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF MAKATI	14.5674	121.028
+2000	Barangka 2	Timog St, Mandaluyong City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MANDALUYONG	14.5703	121.037
+2045	Regional Hospital	Sambat Ibaba,. Batangas City					13.7664	121.065
+1789	Manila Residences II	Malate,Manila		NCR - National Capital Region	NCR, CITY OF MANILA, FIRST DISTRICT	MALATE	14.5665	120.994
+1910	Tanauan 5	Tanauan City Batangas					14.0787	121.151
+1947	Micara Tanza	Tanza,Cavite					14.3743	120.829
+2038	CPI West Service			NCR - National Capital Region	NCR, FOURTH DISTRICT	CITY OF PARA?AQUE	14.4719	121.045
+2078	Matina Aplaya	Matina Aplaya,Davao City					7.05858	125.569
+2098	San Pedro College	Davao City					7.07785	125.615
+1458	Tangke	San Roque, Talisay City, Cebu					10.2539	123.861
+2039	Magallanes Cavite	National Road, Brgy Poblacion Magallanes Cavite					14.1874	120.757
+2041	San Aquintin,Pangasinan	Poblacion San Quintin,Pangasinan					15.9834	120.812
+1941	Shine Residences	Meralco Ave, Barrio Ugong Pasig City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF PASIG	14.5822	121.065
+1997	Sampaloc,Tanay	J.P Rizal St, Sampaloc Tanay					14.5461	121.365
+2016	Shakey's Buting Pasig	M. Concepcion Brgy,.Buting,Pasig		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF PASIG	14.5537	121.069
+1830	San Pedro 9	Blk 22 lot 40 San Vicente San Perdo Laguna					14.3432	121.045
+1844	Citic Tower	Citic Tower Unit A #88 Baawe st, Sto Domingo QC		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6337	121.003
+1889	Bagong Silangan	Lot 2 Blk 24 Brgy Bagong Silangan Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6955	121.109
+1987	Pateros 2	Plaza de Borja Brgy Pobalcion Pateros MM		NCR - National Capital Region	NCR, FOURTH DISTRICT	PATEROS	14.0956	120.938
+2081	San Juan, La Union	National Highway,lli Sur San Juan,La Union					16.6699	120.337
+2103	Masantol	Sta. Lucia Anac,Poblacion Masantol Pampanga					14.891	120.704
+1920	Mapayapa	Lot 19 Blk21 Sampaguita Ave,Brgy Pasong Tamo QC		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6865	121.064
+1971	St. Francis Square Julia Vargas	Mall along Julia Vargas,Ortigas Mandaluyong City		NCR - National Capital Region	NCR, SECOND DISTRICT	CITY OF MANDALUYONG	14.5601	121.012
+2019	Manhattan Dumaguete	Calindagan Rd. Dumaguete City					9.29937	123.304
+1199	Portovita	14th Ave. Cubao,Quezon City		NCR - National Capital Region	NCR, SECOND DISTRICT	QUEZON CITY	14.6196	121.059
+2097	Lucena Capitol	Brgy 8, Quezon Ave, Lucena City Quezon					13.9293	121.612
+2136	Ecoland Suites	Brgy. Bucana, Ecoland Subd., Davao City					7.04917	125.591
+2119	Toril 2	Brgy. Daliao, Toril, Davao City					7.0121	125.499

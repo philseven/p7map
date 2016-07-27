@@ -6,7 +6,7 @@
   $.extend(this, new storeLocator.StaticDataFeed);
 
   var that = this;
-  var data = 'https://storage.googleapis.com/p7map/p7_stores.csv';
+  var data = 'http://s3.philseven.com/public/p7_stores.csv';
   that.setStores(that.parse_(data));
 }
 
